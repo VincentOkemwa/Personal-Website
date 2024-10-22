@@ -488,10 +488,11 @@ a:hover .tooltip,
           transition: .3s;
 }
 
+/* 
 .portfolio-box.work .portfolio-item:hover::before{
           opacity: .9;
           color: blueviolet;
-} 
+} */
 
 .portfolio-item .work-img{
           position: absolute;
@@ -573,9 +574,9 @@ a:hover .tooltip,
           color: var(--main-color);
 }
 
-.portfolio-item:hover .service-icon .icon{
+/* .portfolio-item:hover .service-icon .icon{
           background: var(--main-color);
-}
+} */
 
 .portfolio-item .service-icon a i{
           transform: rotate(-135deg);
