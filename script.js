@@ -1,9 +1,4 @@
 
-
-// onload = () => {
-//           alert(`This Website Has been  that made errors which cannot be undone. ${'</br>'} We apologize for that sake.It took hours to create this website and generate the uskipabble bugs`)
-// }
-
 const navs = document.querySelectorAll('.nav-list li')
 const cube = document.querySelector('.box')
 const sections = document.querySelectorAll('.section')
@@ -16,6 +11,26 @@ const portfolioBoxs = document.querySelectorAll('.portfolio-box');
 
 // navbar actions and all sections actions along with cube rotation when navbar is clicked
 
+
+document.querySelector('.tooltip-home').addEventListener("click", ()=> {
+          document.querySelector('.box').style.transform = "rotateY(-0deg)";
+          
+})
+
+document.querySelector('.tooltip-about').addEventListener("click", ()=> {
+          document.querySelector('.box').style.transform = "rotateY(-90deg)";
+        
+})
+
+document.querySelector('.tooltip-resume').addEventListener("click", ()=> {
+          document.querySelector('.box').style.transform = "rotateY(-180deg)";
+          
+})
+
+document.querySelector('.tooltip-portfolio').addEventListener("click", ()=> {
+          document.querySelector('.box').style.transform = "rotateY(-270deg)";
+
+})
 
 navs.forEach(
           (nav, idx)=>{
